@@ -1,0 +1,5 @@
+v47.5
+-----
+- Replaces non-working GCC @response-file include integration with explicit -I build flags.
+- Fixes fatal compile error: sdio_drv.h: No such file or directory.
+- Retains v47.4 cleanup of old src backups and no-copy source-tree architecture.
