@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "EMH4T2R") (type "KiCad") (uri "${KIPRJMOD}/Footprints/EMH4T2R.pretty") (options "") (descr ""))
+	(lib (name "FT6236_TOUCH_6P") (type "KiCad") (uri "${KIPRJMOD}/Footprints/FT6236_TOUCH/FT6236_TOUCH_6P_V3.pretty") (options "") (descr ""))
+	(lib (name "ILI9488_TFT_40P") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ILI9488_TFT/ILI9488_TFT_40P_V3.pretty") (options "") (descr ""))
+	(lib (name "SKRPACE010_C139797") (type "KiCad") (uri "${KIPRJMOD}/Footprints/SKRPACE010_C139797_KiCad10/SKRPACE010_C139797.pretty") (options "") (descr ""))
+)

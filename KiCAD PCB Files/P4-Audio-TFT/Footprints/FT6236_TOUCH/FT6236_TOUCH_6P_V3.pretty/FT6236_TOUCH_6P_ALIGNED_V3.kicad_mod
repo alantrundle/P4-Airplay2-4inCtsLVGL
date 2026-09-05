@@ -1,0 +1,170 @@
+(footprint "FT6236_TOUCH_6P_ALIGNED_V3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "FT6236 touch 6P; common panel-centre datum; short touch tail; connector X=-8.50 Y=37.285; left edge aligned to 40P left edge")
+	(property "Reference" "REF**"
+		(at -8.5 34.285 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8175ffac-cb84-4184-bb5a-f6023ad1e8a3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "FT6236_TOUCH_6P_ALIGNED_V3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec7b6b27-0440-4a66-9b4e-a51383b596d2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d0cb483-731f-446a-953d-78e6130d86da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34d6da58-db03-4c0f-b4b9-5254ac9bba35")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C224194"
+		(at 0 11.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec42bf4a-335d-4f46-b543-0a30d60437a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "FH34SRJ-6S"
+		(at -7.5 42.5 0)
+		(layer "F.Fab")
+		(uuid "608e5a68-eaac-489b-897a-ff7e4be741df")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -30.44 -47.285)
+		(end 30.44 47.285)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "5d45366b-9f3a-4d0d-ac43-b5a43539f032")
+	)
+	(fp_rect
+		(start -11 34.815)
+		(end -6 38.615)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "484ebc46-0264-4a3b-8204-818e8893c8b2")
+	)
+	(pad "" smd rect
+		(at -10.55 35.065 180)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f71920ce-9305-4034-a082-aee8bcddb6d1")
+	)
+	(pad "" smd rect
+		(at -6.45 35.065 180)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69642cc3-a8d2-493a-b433-5de069685ab7")
+	)
+	(pad "1" smd roundrect
+		(at -9.75 38.365 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "503d5a75-4601-416f-a01d-b8e9572b6b64")
+	)
+	(pad "2" smd rect
+		(at -9.25 38.365 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a7f64749-563f-40c1-bd2c-9c004301af92")
+	)
+	(pad "3" smd rect
+		(at -8.75 38.365 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e7770e92-bc2c-48dd-88ef-4253a12b0773")
+	)
+	(pad "4" smd rect
+		(at -8.25 38.365 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8e80285-0ae7-4300-bcdf-8e33243dc1e4")
+	)
+	(pad "5" smd rect
+		(at -7.75 38.365 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "13f100e8-c597-426b-bf64-42316e97f69e")
+	)
+	(pad "6" smd rect
+		(at -7.25 38.365 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05784a6f-9725-49a9-b754-fe148f56c477")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/FT6236_TOUCH_6P_V3/FT6236_TOUCH_6P_V3.3dshapes/FH34SRJ-6S-0.5SH.step"
+		(offset
+			(xyz -8.5 37.285 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Footprints/FT6236_TOUCH_6P_V3/FT6236_TOUCH_6P_V3.3dshapes/FT6236_Touch_Bezel_V3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

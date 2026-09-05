@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PJ320D_KiCad10") (type "KiCad") (uri "${KIPRJMOD}/Symbols/PJ320D_KiCad10.kicad_sym") (options "") (descr ""))
+	(lib (name "Crystal_4Pin_GND24_KiCad10") (type "KiCad") (uri "${KIPRJMOD}/Symbols/Crystal_4Pin_GND24_KiCad10.kicad_sym") (options "") (descr ""))
+)

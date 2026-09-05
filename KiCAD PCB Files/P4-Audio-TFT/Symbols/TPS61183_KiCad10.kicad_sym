@@ -1,0 +1,174 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "chatgpt")
+  (generator_version "10.0")
+  (symbol "TPS61183"
+    (pin_names
+      (offset 1.016)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+
+    (property "Reference" "U"
+      (at 0 19.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TPS61183"
+      (at 0 16.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" ""
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61183.pdf"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "TI TPS61183 six-channel WLED boost driver, 4.5V to 24V input, RTJ 20-pin WQFN with PowerPAD"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+
+    (symbol "TPS61183_0_1"
+      (rectangle
+        (start -10.16 13.97)
+        (end 10.16 -13.97)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
+    )
+
+    (symbol "TPS61183_1_1"
+      (pin power_in line
+        (at -12.70 10.16 0)
+        (length 2.54)
+        (name "VIN" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_out line
+        (at -12.70 7.62 0)
+        (length 2.54)
+        (name "VDDIO" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -12.70 5.08 0)
+        (length 2.54)
+        (name "EN" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -12.70 2.54 0)
+        (length 2.54)
+        (name "PWMIN" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -12.70 0 0)
+        (length 2.54)
+        (name "FSW" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -12.70 -2.54 0)
+        (length 2.54)
+        (name "ISET" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line
+        (at -12.70 -5.08 0)
+        (length 2.54)
+        (name "RFPWM/MODE" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -12.70 -7.62 0)
+        (length 2.54)
+        (name "OVP" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+
+      (pin passive line
+        (at 12.70 10.16 180)
+        (length 2.54)
+        (name "SW" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line
+        (at 12.70 7.62 180)
+        (length 2.54)
+        (name "FPO" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line
+        (at 12.70 5.08 180)
+        (length 2.54)
+        (name "FAULT" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 2.54 180)
+        (length 2.54)
+        (name "IFB1" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 0 180)
+        (length 2.54)
+        (name "IFB2" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -2.54 180)
+        (length 2.54)
+        (name "IFB3" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -5.08 180)
+        (length 2.54)
+        (name "IFB4" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -7.62 180)
+        (length 2.54)
+        (name "IFB5" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 12.70 -10.16 180)
+        (length 2.54)
+        (name "IFB6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line
+        (at 12.70 -12.70 180)
+        (length 2.54)
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+
+      (pin power_in line
+        (at -5.08 -16.51 90)
+        (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line
+        (at 0 -16.51 90)
+        (length 2.54)
+        (name "PGND" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line
+        (at 5.08 -16.51 90)
+        (length 2.54)
+        (name "PowerPAD" (effects (font (size 1.27 1.27))))
+        (number "21" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
