@@ -1,0 +1,890 @@
+(kicad_symbol_lib (version 20241209) (generator kicad_symbol_editor)
+(symbol "Breakout_J9"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 10.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "I2C"
+			(at 0 7.58 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(symbol "Breakout_J9_0_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 15.24 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Breakout_J9_1_1"
+			(pin passive line
+				(at -7.62 5.08 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 5.08)
+				(name "5V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0.0 0)
+				(length 5.08)
+				(name "3.3V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 5.08)
+				(name "GPIO7(SDA)"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 5.08)
+				(name "GPIO8(SCL)"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+	)
+(symbol "Breakout_J10"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 12.620000000000001 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "SPI"
+			(at 0 10.120000000000001 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(symbol "Breakout_J10_0_1"
+			(rectangle
+				(start -2.54 8.89)
+				(end 15.24 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Breakout_J10_1_1"
+			(pin passive line
+				(at -7.62 7.62 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 5.08 0)
+				(length 5.08)
+				(name "5V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 5.08)
+				(name "3.3V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0.0 0)
+				(length 5.08)
+				(name "GPIO2(SCK)"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 5.08)
+				(name "GPIO3(MOSI)"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.079999999999999 0)
+				(length 5.08)
+				(name "GPIO4(MISO)"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -7.62 0)
+				(length 5.08)
+				(name "GPIO5(CS)"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+	)
+(symbol "Breakout_J11"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 13.89 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GPIO"
+			(at 0 11.39 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(symbol "Breakout_J11_0_1"
+			(rectangle
+				(start -2.54 10.16)
+				(end 15.24 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Breakout_J11_1_1"
+			(pin passive line
+				(at -7.62 8.89 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 6.3500000000000005 0)
+				(length 5.08)
+				(name "5V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 3.8100000000000005 0)
+				(length 5.08)
+				(name "3.3V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 1.2700000000000005 0)
+				(length 5.08)
+				(name "GPIO13"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -1.2699999999999996 0)
+				(length 5.08)
+				(name "GPIO22"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -3.8099999999999987 0)
+				(length 5.08)
+				(name "GPIO34"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -6.35 0)
+				(length 5.08)
+				(name "GPIO49"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -8.89 0)
+				(length 5.08)
+				(name "GPIO50"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+	)
+(symbol "Breakout_J12"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 10.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "CONTROL"
+			(at 0 7.58 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(symbol "Breakout_J12_0_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 15.24 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Breakout_J12_1_1"
+			(pin passive line
+				(at -7.62 5.08 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 5.08)
+				(name "5V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0.0 0)
+				(length 5.08)
+				(name "3.3V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 5.08)
+				(name "ESP_EN"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 5.08)
+				(name "ESP_BOOT"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+	)
+(symbol "Breakout_J13"
+		(pin_names
+			(offset 1.016)
+		)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 10.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "UART 3V3"
+			(at 0 7.58 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(symbol "Breakout_J13_0_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 15.24 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Breakout_J13_1_1"
+			(pin passive line
+				(at -7.62 5.08 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 5.08)
+				(name "5V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0.0 0)
+				(length 5.08)
+				(name "3.3V"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 5.08)
+				(name "U0TXD"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 5.08)
+				(name "U0RXD"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.9 0.9)
+						)
+					)
+				)
+			)
+		)
+	)
+(symbol "MicBias_Jumper"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MicBias_Jumper_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

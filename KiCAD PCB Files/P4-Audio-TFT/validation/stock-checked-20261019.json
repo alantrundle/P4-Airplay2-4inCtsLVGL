@@ -1,0 +1,637 @@
+[
+  {
+    "code": "C107335",
+    "name": "MPZ1608S601ATA00",
+    "library": "expand",
+    "stock": 731585,
+    "min": 844,
+    "price": 0.0146,
+    "bytes": 339966,
+    "status": "refreshed"
+  },
+  {
+    "code": "C107671",
+    "name": "PCM5102APWR",
+    "library": "expand",
+    "stock": 3701,
+    "min": 7,
+    "price": 1.4499,
+    "bytes": 356182,
+    "status": "refreshed"
+  },
+  {
+    "code": "C114218",
+    "name": "DM3AT-SF-PEJM5",
+    "library": "expand",
+    "stock": 16464,
+    "min": 7,
+    "price": 1.3912,
+    "bytes": 364253,
+    "status": "refreshed"
+  },
+  {
+    "code": "C129077",
+    "name": "EM-01KP",
+    "library": "expand",
+    "stock": 1943,
+    "min": 21,
+    "price": 0.5699,
+    "bytes": 405121,
+    "status": "refreshed"
+  },
+  {
+    "code": "C139797",
+    "name": "SKRPACE010",
+    "library": "expand",
+    "stock": 77367,
+    "min": 164,
+    "price": 0.0694,
+    "bytes": 433860,
+    "status": "refreshed"
+  },
+  {
+    "code": "C141836",
+    "name": "TLV62569DBVR",
+    "library": "expand",
+    "stock": 455839,
+    "min": 188,
+    "price": 0.0706,
+    "bytes": 352635,
+    "status": "refreshed"
+  },
+  {
+    "code": "C14663",
+    "name": "CC0603KRX7R9BB104",
+    "library": "base",
+    "stock": 40118497,
+    "min": 1003,
+    "price": 0.0108,
+    "bytes": 357226,
+    "status": "refreshed"
+  },
+  {
+    "code": "C14858",
+    "name": "CL10C101JB8NNNC",
+    "library": "base",
+    "stock": 3988044,
+    "min": 1389,
+    "price": 0.0086,
+    "bytes": 334777,
+    "status": "refreshed"
+  },
+  {
+    "code": "C15008",
+    "name": "CL31A107MQHNNNE",
+    "library": "base",
+    "stock": 1293050,
+    "min": 65,
+    "price": 0.1393,
+    "bytes": 329751,
+    "status": "refreshed"
+  },
+  {
+    "code": "C15127",
+    "name": "AO3401A",
+    "library": "base",
+    "stock": 746220,
+    "min": 110,
+    "price": 0.1021,
+    "bytes": 372548,
+    "status": "refreshed"
+  },
+  {
+    "code": "C1525",
+    "name": "CL05B104KO5NNNC",
+    "library": "base",
+    "stock": 29163879,
+    "min": 2201,
+    "price": 0.0051,
+    "bytes": 334632,
+    "status": "refreshed"
+  },
+  {
+    "code": "C155559",
+    "name": "LD39150DT33-R",
+    "library": "expand",
+    "stock": 0,
+    "min": 5,
+    "price": 2.2418,
+    "bytes": 397001,
+    "status": "refreshed"
+  },
+  {
+    "code": "C15849",
+    "name": "CL10A105KB8NNNC",
+    "library": "base",
+    "stock": 15235435,
+    "min": 759,
+    "price": 0.0153,
+    "bytes": 334423,
+    "status": "refreshed"
+  },
+  {
+    "code": "C15850",
+    "name": "CL21A106KAYNNNE",
+    "library": "base",
+    "stock": 6398282,
+    "min": 104,
+    "price": 0.0874,
+    "bytes": 343692,
+    "status": "refreshed"
+  },
+  {
+    "code": "C1603",
+    "name": "CL10B221KB8NNNC",
+    "library": "base",
+    "stock": 1167880,
+    "min": 1612,
+    "price": 0.0072,
+    "bytes": 349234,
+    "status": "refreshed"
+  },
+  {
+    "code": "C1604",
+    "name": "0603B222K500NT",
+    "library": "base",
+    "stock": 978911,
+    "min": 1050,
+    "price": 0.0109,
+    "bytes": 382298,
+    "status": "refreshed"
+  },
+  {
+    "code": "C1653",
+    "name": "CL10C220JB8NNNC",
+    "library": "base",
+    "stock": 2131614,
+    "min": 1962,
+    "price": 0.006,
+    "bytes": 349152,
+    "status": "refreshed"
+  },
+  {
+    "code": "C165948",
+    "name": "TYPE-C-31-M-12",
+    "library": "expand",
+    "stock": 355876,
+    "min": 49,
+    "price": 0.1865,
+    "bytes": 431036,
+    "status": "refreshed"
+  },
+  {
+    "code": "C19666",
+    "name": "CL10A475KO8NNNC",
+    "library": "base",
+    "stock": 3459949,
+    "min": 610,
+    "price": 0.0218,
+    "bytes": 344447,
+    "status": "refreshed"
+  },
+  {
+    "code": "C19702",
+    "name": "CL10A106KP8NNNC",
+    "library": "base",
+    "stock": 10697332,
+    "min": 449,
+    "price": 0.0272,
+    "bytes": 324320,
+    "status": "refreshed"
+  },
+  {
+    "code": "C20616172",
+    "name": "IMTF201610C1R0MCTB",
+    "library": "expand",
+    "stock": 70,
+    "min": 418,
+    "price": 0.0275,
+    "bytes": 389371,
+    "status": "refreshed"
+  },
+  {
+    "code": "C20917",
+    "name": "AO3400A",
+    "library": "base",
+    "stock": 1065444,
+    "min": 117,
+    "price": 0.0972,
+    "bytes": 384152,
+    "status": "refreshed"
+  },
+  {
+    "code": "C21190",
+    "name": "0603WAF1001T5E",
+    "library": "base",
+    "stock": 22808225,
+    "min": 3760,
+    "price": 0.003,
+    "bytes": 363531,
+    "status": "refreshed"
+  },
+  {
+    "code": "C2146",
+    "error": "HTTP Error 429: Too Many Requests",
+    "status": "refreshed"
+  },
+  {
+    "code": "C224194",
+    "name": "FH34SRJ-6S-0.5SH(50)",
+    "library": "expand",
+    "stock": 81000,
+    "min": 127,
+    "price": 0.0912,
+    "bytes": 381379,
+    "status": "refreshed"
+  },
+  {
+    "code": "C22459515",
+    "name": "PJ-320D",
+    "library": "expand",
+    "stock": 2673,
+    "min": 381,
+    "price": 0.0301,
+    "bytes": 403185,
+    "status": "refreshed"
+  },
+  {
+    "code": "C22775",
+    "name": "0603WAF1000T5E",
+    "library": "base",
+    "stock": 10630717,
+    "min": 4512,
+    "price": 0.0025,
+    "bytes": 348101,
+    "status": "refreshed"
+  },
+  {
+    "code": "C22859",
+    "name": "0603WAF100JT5E",
+    "library": "base",
+    "stock": 5995370,
+    "min": 4102,
+    "price": 0.0032,
+    "bytes": 372685,
+    "status": "refreshed"
+  },
+  {
+    "code": "C2297",
+    "name": "KT-0805G",
+    "library": "base",
+    "stock": 2611569,
+    "min": 711,
+    "price": 0.0164,
+    "bytes": 408740,
+    "status": "refreshed"
+  },
+  {
+    "code": "C22975",
+    "name": "0603WAF2001T5E",
+    "library": "base",
+    "stock": 11221424,
+    "min": 5000,
+    "price": 0.0024,
+    "bytes": 368185,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23089",
+    "name": "0603WAF6042T5E",
+    "library": "expand",
+    "stock": 86910,
+    "min": 5000,
+    "price": 0.0015,
+    "bytes": 353062,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23140",
+    "name": "0603WAF330JT5E",
+    "library": "base",
+    "stock": 4875893,
+    "min": 4749,
+    "price": 0.0024,
+    "bytes": 373166,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23162",
+    "name": "0603WAF4701T5E",
+    "library": "base",
+    "stock": 18421225,
+    "min": 4102,
+    "price": 0.0028,
+    "bytes": 368426,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23179",
+    "name": "0603WAF4700T5E",
+    "library": "base",
+    "stock": 5492068,
+    "min": 5000,
+    "price": 0.0023,
+    "bytes": 367785,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23186",
+    "name": "0603WAF5101T5E",
+    "library": "base",
+    "stock": 23342336,
+    "min": 5000,
+    "price": 0.0015,
+    "bytes": 373102,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23196",
+    "name": "0603WAF5102T5E",
+    "library": "base",
+    "stock": 2399299,
+    "min": 5000,
+    "price": 0.0017,
+    "bytes": 363244,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23345",
+    "name": "0603WAF220JT5E",
+    "library": "base",
+    "stock": 7646846,
+    "min": 5000,
+    "price": 0.0017,
+    "bytes": 377791,
+    "status": "refreshed"
+  },
+  {
+    "code": "C23630",
+    "name": "CL10A225KO8NNNC",
+    "library": "base",
+    "stock": 3395818,
+    "min": 860,
+    "price": 0.0134,
+    "bytes": 324870,
+    "status": "refreshed"
+  },
+  {
+    "code": "C25803",
+    "name": "0603WAF1003T5E",
+    "library": "base",
+    "stock": 19181265,
+    "min": 3760,
+    "price": 0.0031,
+    "bytes": 358528,
+    "status": "refreshed"
+  },
+  {
+    "code": "C25804",
+    "name": "0603WAF1002T5E",
+    "library": "base",
+    "stock": 39228014,
+    "min": 2051,
+    "price": 0.0054,
+    "bytes": 353290,
+    "status": "refreshed"
+  },
+  {
+    "code": "C265104",
+    "name": "S5B-PH-SM4-TB(LF)(SN)",
+    "library": "expand",
+    "stock": 10723,
+    "min": 27,
+    "price": 0.3419,
+    "bytes": 408693,
+    "status": "refreshed"
+  },
+  {
+    "code": "C265121",
+    "name": "S8B-PH-SM4-TB(LF)(SN)",
+    "library": "expand",
+    "stock": 18294,
+    "min": 25,
+    "price": 0.454,
+    "bytes": 423993,
+    "status": "refreshed"
+  },
+  {
+    "code": "C265453",
+    "name": "S7B-PH-SM4-TB(LF)(SN)",
+    "library": "expand",
+    "stock": 5265,
+    "min": 26,
+    "price": 0.4409,
+    "bytes": 418388,
+    "status": "refreshed"
+  },
+  {
+    "code": "C26751",
+    "name": "0603WAF4993T5E",
+    "library": "expand",
+    "stock": 135992,
+    "min": 5000,
+    "price": 0.0016,
+    "bytes": 363582,
+    "status": "refreshed"
+  },
+  {
+    "code": "C2765194",
+    "name": "67643-3911",
+    "library": "expand",
+    "stock": 2547,
+    "min": 11,
+    "price": 0.9993,
+    "bytes": 351493,
+    "status": "refreshed"
+  },
+  {
+    "code": "C2974063",
+    "name": "FRC1210F16R0TS",
+    "library": "expand",
+    "stock": 18696,
+    "min": 1220,
+    "price": 0.0092,
+    "bytes": 396943,
+    "status": "refreshed"
+  },
+  {
+    "code": "C32346",
+    "name": "Q13FC13500004",
+    "library": "base",
+    "stock": 223998,
+    "min": 67,
+    "price": 0.1725,
+    "bytes": 351542,
+    "status": "refreshed"
+  },
+  {
+    "code": "C365736",
+    "name": "ES8388",
+    "library": "expand",
+    "stock": 45855,
+    "min": 9,
+    "price": 1.1071,
+    "bytes": 408189,
+    "status": "refreshed"
+  },
+  {
+    "code": "C42431787",
+    "name": "PZ2.54-1X4P-H25",
+    "library": "expand",
+    "stock": 14736,
+    "min": 554,
+    "price": 0.0213,
+    "bytes": 344194,
+    "status": "refreshed"
+  },
+  {
+    "code": "C45783",
+    "name": "CL21A226MAQNNNE",
+    "library": "base",
+    "stock": 3676747,
+    "min": 47,
+    "price": 0.194,
+    "bytes": 344456,
+    "status": "refreshed"
+  },
+  {
+    "code": "C506798",
+    "name": "FH34SRJ-40S-0.5SH(50)",
+    "library": "expand",
+    "stock": 14103,
+    "min": 34,
+    "price": 0.3935,
+    "bytes": 392781,
+    "status": "refreshed"
+  },
+  {
+    "code": "C52923",
+    "name": "CL05A105KA5NQNC",
+    "library": "base",
+    "stock": 8393820,
+    "min": 1770,
+    "price": 0.0068,
+    "bytes": 339548,
+    "status": "refreshed"
+  },
+  {
+    "code": "C5380316",
+    "name": "3225 40M 12PF 10PPM",
+    "library": "expand",
+    "stock": 863,
+    "min": 157,
+    "price": 0.0724,
+    "bytes": 396210,
+    "status": "refreshed"
+  },
+  {
+    "code": "C5446808",
+    "name": "SK-12D02-G030",
+    "library": "expand",
+    "stock": 1029,
+    "min": 93,
+    "price": 0.1235,
+    "bytes": 367890,
+    "status": "refreshed"
+  },
+  {
+    "code": "C54540373",
+    "name": "ESP32-P4NRW32X",
+    "library": "expand",
+    "stock": 0,
+    "min": 2,
+    "price": 6.1931,
+    "bytes": 265849,
+    "status": "refreshed"
+  },
+  {
+    "code": "C55266",
+    "name": "TPS2553DBVR",
+    "library": "expand",
+    "stock": 52909,
+    "min": 21,
+    "price": 0.5405,
+    "bytes": 368748,
+    "status": "refreshed"
+  },
+  {
+    "code": "C59461",
+    "name": "CL10A226MQ8NRNC",
+    "library": "base",
+    "stock": 7011157,
+    "min": 386,
+    "price": 0.0312,
+    "bytes": 329370,
+    "status": "refreshed"
+  },
+  {
+    "code": "C6553337",
+    "name": "ESP32-C6-MINI-1-H4",
+    "library": "expand",
+    "stock": 2,
+    "min": 3,
+    "price": 4.4248,
+    "bytes": 343365,
+    "status": "refreshed"
+  },
+  {
+    "code": "C7250",
+    "name": "0603WAF1005T5E",
+    "library": "base",
+    "stock": 1055279,
+    "min": 3760,
+    "price": 0.0032,
+    "bytes": 378178,
+    "status": "refreshed"
+  },
+  {
+    "code": "C84681",
+    "name": "CH340C",
+    "library": "expand",
+    "stock": 123269,
+    "min": 20,
+    "price": 0.5438,
+    "bytes": 367505,
+    "status": "refreshed"
+  },
+  {
+    "code": "C8678",
+    "name": "SS34",
+    "library": "base",
+    "stock": 3811369,
+    "min": 322,
+    "price": 0.035,
+    "bytes": 369223,
+    "status": "refreshed"
+  },
+  {
+    "code": "C92159",
+    "name": "2.54-1*3PStraight Bent Pin",
+    "library": "expand",
+    "stock": 11589,
+    "min": 445,
+    "price": 0.0257,
+    "bytes": 414207,
+    "status": "refreshed"
+  },
+  {
+    "code": "C964729",
+    "name": "BS-12-B3AA011",
+    "library": "expand",
+    "stock": 8939,
+    "min": 30,
+    "price": 0.3013,
+    "bytes": 388831,
+    "status": "refreshed"
+  },
+  {
+    "code": "C97522",
+    "name": "W25Q256JVEIQ",
+    "library": "expand",
+    "stock": 10046,
+    "min": 2,
+    "price": 4.7824,
+    "bytes": 347073,
+    "status": "refreshed"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "release_date": "2026-10-19",
+  "source": {
+    "P4-Audio-TFT.kicad_pcb": "5550e56c2fa2fe5057569c7d14392d753620304a06b732cf74350be51577d25b",
+    "P4-Audio-TFT.kicad_sch": "db46d3b9780e2934f10d23c28c85921b6fdcd094d219bc2983db8063f5a3c91e",
+    "P4-Audio-TFT.kicad_pro": "f5536d5c5427b7260072a4003034fe2542188606d9466c08951a68a3460d1456"
+  },
+  "production": {
+    "P4-Audio-TFT.zip": "e841c7fe285fac9c1cb44937a187385506c3ee01972c6441c04f529172d08fa7",
+    "bom.csv": "217fea66154b6cf6338864e277ce23f44317c6b6229206111f38dc7c96337ed3",
+    "positions.csv": "632834c01650385f03eece1e9e347b5945b740eaf7e3198fe3a3ac2eaf31fd80"
+  },
+  "validation": {
+    "drc_errors": 0,
+    "drc_warnings": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "erc": 0
+  },
+  "assembly_parts": 178,
+  "assembly_groups": 62,
+  "stock_exceptions": [
+    "C6553337",
+    "C155559",
+    "C54540373"
+  ]
+}

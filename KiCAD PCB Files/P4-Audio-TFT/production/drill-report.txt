@@ -1,0 +1,34 @@
+Drill report for P4-Audio-TFT.kicad_pcb
+Created on 2026-10-19T09:44:01
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top Layer                 front
+    L2 :  Power Plane               in1
+    L3 :  Ground Plane              in2
+    L4 :  Bottom Layer              back
+
+
+Drill file 'P4-Audio-TFT-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (731 holes))
+    T2  0.300mm  0.0118"  (17 holes))
+    T3  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T4  0.900mm  0.0354"  (3 holes))
+    T5  0.950mm  0.0374"  (4 holes))
+    T6  1.000mm  0.0394"  (7 holes))
+    T7  1.500mm  0.0591"  (2 holes))
+    T8  2.300mm  0.0906"  (2 holes))
+
+    Total plated holes count 770
+
+
+Drill file 'P4-Audio-TFT-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes))
+    T2  1.400mm  0.0551"  (4 holes))
+    T3  3.200mm  0.1260"  (4 holes))
+
+    Total unplated holes count 10

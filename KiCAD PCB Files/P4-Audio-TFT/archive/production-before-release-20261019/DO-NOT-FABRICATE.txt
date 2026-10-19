@@ -1,0 +1,1 @@
+Final high-speed routing review and manufacturing exports pending. Existing Gerbers and positions are stale. The saved PCB passes connectivity, clearance, silkscreen and schematic-parity checks; this is not yet the manufacturing release.

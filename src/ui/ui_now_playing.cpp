@@ -868,7 +868,7 @@ void ui_now_playing_create(
         lv_obj_set_style_bg_color(s_volume_slider, lv_color_hex(0xD8E0E7), LV_PART_INDICATOR);
         lv_obj_set_style_bg_opa(s_volume_slider, LV_OPA_COVER, LV_PART_INDICATOR);
         lv_obj_set_style_bg_color(s_volume_slider, lv_color_hex(0xE8EDF2), LV_PART_KNOB);
-        lv_obj_set_style_pad_all(s_volume_slider, ,8 LV_PART_KNOB);
+        lv_obj_set_style_pad_all(s_volume_slider, 8, LV_PART_KNOB);
         lv_obj_add_event_cb(s_volume_slider, volume_slider_event_cb, LV_EVENT_VALUE_CHANGED, nullptr);              
         lv_obj_set_ext_click_area(s_volume_slider, 18);
         lv_obj_add_flag(s_volume_slider, LV_OBJ_FLAG_PRESS_LOCK);

@@ -1,0 +1,185 @@
+(footprint "Hirose_FH34SRJ-6S-0.5SH_FT6236"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TS connector moved exactly 4.0 mm further LEFT from previous supplied position Y=23.285 to Y=27.285; panel datum unchanged")
+	(property "Reference" "REF**"
+		(at 12.125 14.395 -90)
+		(layer "F.SilkS")
+		(uuid "0bf52162-9688-4280-99a0-c347c2d631fd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "FH34SRJ-6S-0.5SH(50)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c076ff9a-f15c-4877-be77-1a2d5837dd08")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90ffd0e1-fb35-4f70-be62-6c25b3239c4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "FT6236 touch interface via Hirose 6P 0.5mm 1.0mm-high ZIF; LCSC C224194"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a92a770f-50eb-4464-98b8-da17ce1d1376")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C224194"
+		(at 0 11.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "176f16b6-fb80-4d1c-b4af-42199f968215")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "FH34SRJ-6S-0.5SH(50)"
+		(at 7.5 28.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "658066b4-87e4-44c0-8d89-7aa5a1542b17")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "P4-WVM-ATSC6-V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -30.44 -47.285)
+		(end 30.44 47.285)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "39538e26-9198-49dc-8afc-e313b256229d")
+	)
+	(fp_rect
+		(start 11.3 29.015)
+		(end 5.7 24.49)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f648bba9-d497-49e3-b65b-ca93cb17a48d")
+	)
+	(fp_rect
+		(start 6 24.815)
+		(end 11 28.615)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4715165d-65b0-42aa-9f0c-406744c213b2")
+	)
+	(pad "" smd rect
+		(at 6.45 25.065)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2337754c-da13-4266-8f9b-e5b18b9a443e")
+	)
+	(pad "" smd rect
+		(at 10.55 25.065)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f1ff3c90-f62b-4059-90cd-581ebf7f3037")
+	)
+	(pad "1" smd roundrect
+		(at 9.75 28.365)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "175f2ec2-8fb9-42c1-995f-04620d6edc37")
+	)
+	(pad "2" smd rect
+		(at 9.25 28.365)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "39c198ab-45ef-41fb-a46e-df1a2f2ab055")
+	)
+	(pad "3" smd rect
+		(at 8.75 28.365)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5273b7e3-8d46-43c0-a213-92b3d327903f")
+	)
+	(pad "4" smd rect
+		(at 8.25 28.365)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3842b610-4546-4dc5-9ae9-501ed199d7dc")
+	)
+	(pad "5" smd rect
+		(at 7.75 28.365)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cdbcd7af-0238-4208-8068-70591efe9432")
+	)
+	(pad "6" smd rect
+		(at 7.25 28.365)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "442d9882-181f-400b-9182-dac9f69fd918")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Footprints/FT6236_TOUCH_6P_V3/FT6236_TOUCH_6P_V3.3dshapes/FH34SRJ-6S-0.5SH.step"
+		(offset
+			(xyz 8.5 27.285 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Footprints/FT6236_TOUCH_6P_V3/FT6236_TOUCH_6P_V3.3dshapes/FT6236_Touch_Bezel_V3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

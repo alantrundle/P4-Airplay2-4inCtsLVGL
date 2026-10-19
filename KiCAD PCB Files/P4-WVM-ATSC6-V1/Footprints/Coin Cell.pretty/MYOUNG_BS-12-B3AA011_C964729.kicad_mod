@@ -1,0 +1,199 @@
+(footprint "MYOUNG_BS-12-B3AA011_C964729"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MYOUNG BS-12-B3AA011, LCSC C964729, horizontal SMT holder for CR1220/ML1220/LIR1220. Body approx. 14.9 mm diameter x 4.1 mm high.")
+	(tags "ML1220 CR1220 LIR1220 coin cell battery holder C964729 MYOUNG")
+	(property "Reference" "REF**"
+		(at 0 -8.575 0)
+		(layer "F.SilkS")
+		(uuid "5d46b087-3151-4539-b4a9-3a4f4a4dff7b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "BS-12-B3AA011"
+		(at 0 9.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8ae69fe-2e78-4121-8356-caaffdc65afd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bed9dd2d-a35e-4a34-9f01-1e5820b42155")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Single-cell battery"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cb520f1-de1a-4e6b-b10d-b37ae6cb46d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Sim.Device" "V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8b9351c-fedc-4040-bc63-6a7c5171ed52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "DC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f25f61e-b5ae-49ec-8673-cec25552c262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=+ 2=-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5883d760-edaf-481c-9d3c-a5242391e51a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C964729"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56ef79ea-23e2-4067-a6e8-0819fabb73cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "P4-WVM-ATSC6-V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 7.75 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e82570b9-ecce-4006-adb4-d47fec8b6c03")
+	)
+	(fp_line
+		(start -8.9 -2.6)
+		(end -8.9 2.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2ff1066d-4c96-45ca-859e-8d05c7557390")
+	)
+	(fp_line
+		(start 8.9 -2.6)
+		(end 8.9 2.6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3454eafe-2760-45aa-a8a6-d5b85e2c809d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "80681eca-a043-4dc7-a7b6-a617a3e07b17")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.45 0)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5df779ab-1a7f-4ce2-b497-461ea687244f")
+	)
+	(fp_text user "+"
+		(at -5.1 0 0)
+		(layer "F.Fab")
+		(uuid "225d5b23-0807-49b4-be19-15d254d55403")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.25)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 5.1 0 0)
+		(layer "F.Fab")
+		(uuid "669fa340-d3a0-4738-b866-2c942bfc58dc")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.25)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -7.8 0)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "b00f3911-3c50-46e7-8837-c758f4f09e04")
+	)
+	(pad "2" smd roundrect
+		(at 7.8 0)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "9b81cc08-c2bf-4597-a8b9-c23e2a30ce5c")
+	)
+	(embedded_fonts no)
+)

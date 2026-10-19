@@ -1,0 +1,175 @@
+(footprint "Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(layer "F.Cu")
+	(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
+	(property "Reference" "Y1"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "39b29626-20ad-403c-a6f3-352146277739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "40Mhz"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "cc36526e-bd0f-4e27-9284-ac9f46f04e88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d31b482-802a-4bd2-8b2e-8debcb46e757")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 4; explicit four-pin symbol for 3225 4-pad crystals"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b120c04e-136e-4dc4-be96-ad3bd9427fba")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C5380316"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5846d0f9-8707-430f-9308-2dca9afb0382")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(units
+		(unit
+			(name "A")
+			(pins "1" "2" "4" "3")
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.06 -1.71)
+		(end -2.06 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "518e2e11-c37a-43bd-bf0f-9311ef0cc0fe")
+	)
+	(fp_line
+		(start -2.06 1.71)
+		(end 2.06 1.71)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f056e12a-a261-475b-8c17-7d93e5712e39")
+	)
+	(fp_rect
+		(start -2.1 -1.75)
+		(end 2.1 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "92fb382d-b8d7-4eca-8a1c-5b8ec73e38c0")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6 -1.25)
+			(xy 1.6 1.25)
+			(xy -0.975 1.25)
+			(xy -1.6 0.625)
+			(xy -1.6 -1.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8844eded-370e-4fa1-be57-84ee478cb5fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c62fd97a-db91-4636-bad7-dee1fb905f4e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(pinfunction "XTAL1_1")
+		(pintype "passive")
+		(uuid "833219f8-d8fb-4788-89f8-61f62099a221")
+	)
+	(pad "2" smd roundrect
+		(at 1.1 0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(pinfunction "GND_2")
+		(pintype "power_in")
+		(uuid "ae0248d8-ed1e-4412-b54b-7236cb7dc883")
+	)
+	(pad "3" smd roundrect
+		(at 1.1 -0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(pinfunction "XTAL2_3")
+		(pintype "passive")
+		(uuid "29f4a2af-8b89-43d2-8720-8df4f4bcaa47")
+	)
+	(pad "4" smd roundrect
+		(at -1.1 -0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(pinfunction "GND_4")
+		(pintype "power_in")
+		(uuid "4834d242-b699-49d9-8075-a58581fe8f35")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

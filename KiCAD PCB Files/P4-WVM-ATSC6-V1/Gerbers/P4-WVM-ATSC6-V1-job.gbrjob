@@ -1,0 +1,185 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.7"
+    },
+    "CreationDate": "2026-10-17T16:17:28+01:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "P4-WVM-ATSC6-V1",
+      "GUID": "50342d57-564d-42d4-9154-5343362d5631",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 100.05,
+      "Y": 85.45
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.6,
+    "Finish": "Lead-Free",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.12,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.1,
+      "MinLineWidth": 0.12,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "P4-WVM-ATSC6-V1-Top Layer.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-GND Layer 1.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-Power Layer 2.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-Bottom Layer.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-Top Overlay.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-Board Layer Stack Bottom Overlay.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-Top Solder.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-Board Layer Stack Bottom Solder.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "P4-WVM-ATSC6-V1-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R255G0B128",
+      "Thickness": 0.0305,
+      "Material": "SM-001",
+      "DielectricConstant": "3.8",
+      "LossTangent": "0.03",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Top Layer"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2104,
+      "Material": "NP-140F",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "Top Layer/GND Layer 1",
+      "Notes": "Type: dielectric layer 1 (from Top Layer to GND Layer 1)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND Layer 1"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.065,
+      "Material": "FR4-Generic",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "GND Layer 1/Power Layer 2",
+      "Notes": "Type: dielectric layer 2 (from GND Layer 1 to Power Layer 2)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "Power Layer 2"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2104,
+      "Material": "NP-140F",
+      "DielectricConstant": "4.4",
+      "LossTangent": "0.02",
+      "Name": "Power Layer 2/Bottom Layer",
+      "Notes": "Type: dielectric layer 3 (from Power Layer 2 to Bottom Layer)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "Bottom Layer"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "R255G0B128",
+      "Thickness": 0.0305,
+      "Material": "SM-001",
+      "DielectricConstant": "3.8",
+      "LossTangent": "0.03",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

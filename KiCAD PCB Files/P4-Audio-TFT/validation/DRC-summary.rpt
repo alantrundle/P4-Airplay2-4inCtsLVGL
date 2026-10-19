@@ -1,0 +1,13 @@
+P4-Audio-TFT native validation — 19 October 2026
+KiCad: 10.0.7
+PCB DRC errors: 0
+PCB DRC warnings: 0
+Unconnected items: 0
+Schematic parity issues: 0
+Schematic ERC violations: 0
+Assembly designators: 178, unique and identical in BOM/CPL
+Assembly groups: 62 (34 Basic / 28 Extended)
+Copper layers: 4; ground layer contains only GND
+Gerber/drill archive: 14 unique files, ZIP integrity passed
+Stock exceptions: P4 and regulator unavailable; C6 stock 2 for five boards
+Native JSON reports are authoritative. Refer to Design-review.md for prototype limits.

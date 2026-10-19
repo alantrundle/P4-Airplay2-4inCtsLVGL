@@ -1,0 +1,266 @@
+(footprint "HanElectricity_PJ320D_C22459515"
+	(layer "F.Cu")
+	(descr "HanElectricity PJ-320D C22459515; manufacturer PCB layout top view; T=4 R1=3 R2=2 S=1")
+	(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
+	(property "Reference" "REF**"
+		(at 6.895 0 90.0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "PJ-320D"
+		(at -0.025 6.35 180.0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/efb3e22fc41b90dddaa0a750f9acf674.pdf?productCode=C22459515"
+		(at 0 0 0.0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3.5 mm audio jack symbol matched to KiCad PJ320D footprint pads T, R1, R2, S"
+		(at 0 0 0.0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C22459515"
+		(at 0 0 0.0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Function" "LINE-OUT"
+		(at 6.895 0 90.0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8.475 -5.25)
+		(end 6.575 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 4.15 3.1)
+		(end -6.375 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 5.725 3.1)
+		(end 5.725 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -6.375 2.5)
+		(end -6.375 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -6.375 2.5)
+		(end -8.375 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -8.375 -2.5)
+		(end -8.375 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -6.375 -2.5)
+		(end -8.375 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -6.375 -3.1)
+		(end -6.375 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -6.375 -3.1)
+		(end -4 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.35 -3.1)
+		(end -1 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 0.65 -3.1)
+		(end 3.05 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 3.05 -3.1)
+		(end 3.05 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 4.6 -3.1)
+		(end 5.725 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 4.6 -3.1)
+		(end 4.6 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -8.225 -2.5)
+		(end -6.225 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -6.225 -3)
+		(end 6.075 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(pad "" np_thru_hole circle
+		(at -4.525 0 0.0)
+		(size 1.4 1.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.475 0 0.0)
+		(size 1.4 1.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "R1" smd rect
+		(at -0.025 -3.5 0.0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "R2" smd rect
+		(at -3.025 -3.5 0.0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "S" smd rect
+		(at 5.575 3.5 0.0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "T" smd rect
+		(at 3.975 -3.5 0.0)
+		(size 1.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ320D_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
