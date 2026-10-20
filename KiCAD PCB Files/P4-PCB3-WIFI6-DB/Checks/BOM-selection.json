@@ -1,0 +1,290 @@
+{
+  "checked": "2026-10-20",
+  "groups": {
+    "Basic": 22,
+    "Extended": 13
+  },
+  "parts": [
+    {
+      "references": "C3,C7",
+      "code": "C15008",
+      "part": "CL31A107MQHNNNE",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.1394,
+      "source": "https://jlcpcb.com/partdetail/C15008"
+    },
+    {
+      "references": "C4",
+      "code": "C19666",
+      "part": "CL10A475KO8NNNC",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0206,
+      "source": "https://jlcpcb.com/partdetail/C19666"
+    },
+    {
+      "references": "C5,C6,C10,C12,C14,C16,C17,C23,C25,C29,C30,C33,C34,C77,C86,C94,C95",
+      "code": "C14663",
+      "part": "CC0603KRX7R9BB104",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0084,
+      "source": "https://jlcpcb.com/partdetail/C14663"
+    },
+    {
+      "references": "C9,C11,C13,C15,C21,C32,C76",
+      "code": "C19702",
+      "part": "CL10A106KP8NNNC",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0272,
+      "source": "https://jlcpcb.com/partdetail/C19702"
+    },
+    {
+      "references": "C24,C26,C89",
+      "code": "C23630",
+      "part": "CL10A225KO8NNNC",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0127,
+      "source": "https://jlcpcb.com/partdetail/C23630"
+    },
+    {
+      "references": "C27,C28",
+      "code": "C1604",
+      "part": "0603B222K500NT",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0109,
+      "source": "https://jlcpcb.com/partdetail/C1604"
+    },
+    {
+      "references": "C66,C81,C96",
+      "code": "C15850",
+      "part": "CL21A106KAYNNNE",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0875,
+      "source": "https://jlcpcb.com/partdetail/C15850"
+    },
+    {
+      "references": "C87,C90,C91",
+      "code": "C15849",
+      "part": "CL10A105KB8NNNC",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0153,
+      "source": "https://jlcpcb.com/partdetail/C15849"
+    },
+    {
+      "references": "C88",
+      "code": "C45783",
+      "part": "CL21A226MAQNNNE",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.1943,
+      "source": "https://jlcpcb.com/partdetail/C45783"
+    },
+    {
+      "references": "C92,C93",
+      "code": "C14858",
+      "part": "CL10C101JB8NNNC",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0086,
+      "source": "https://jlcpcb.com/partdetail/C14858"
+    },
+    {
+      "references": "DS1",
+      "code": "C506798",
+      "part": "FH34SRJ-40S-0.5SH(50)",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.3938,
+      "source": "https://jlcpcb.com/partdetail/C506798"
+    },
+    {
+      "references": "J2,J3",
+      "code": "C22459515",
+      "part": "PJ-320D",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.0301,
+      "source": "https://jlcpcb.com/partdetail/C22459515"
+    },
+    {
+      "references": "J6",
+      "code": "C114218",
+      "part": "DM3AT-SF-PEJM5",
+      "library": "Extended",
+      "public_price_1pc_USD": 1.3922,
+      "source": "https://jlcpcb.com/partdetail/C114218"
+    },
+    {
+      "references": "J9",
+      "code": "C265104",
+      "part": "S5B-PH-SM4-TB(LF)(SN)",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.3421,
+      "source": "https://jlcpcb.com/partdetail/C265104"
+    },
+    {
+      "references": "J10",
+      "code": "C265453",
+      "part": "S7B-PH-SM4-TB(LF)(SN)",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.4412,
+      "source": "https://jlcpcb.com/partdetail/C265453"
+    },
+    {
+      "references": "J11",
+      "code": "C265121",
+      "part": "S8B-PH-SM4-TB(LF)(SN)",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.4543,
+      "source": "https://jlcpcb.com/partdetail/C265121"
+    },
+    {
+      "references": "L1",
+      "code": "C107335",
+      "part": "MPZ1608S601ATA00",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.0146,
+      "source": "https://jlcpcb.com/partdetail/C107335"
+    },
+    {
+      "references": "Q3",
+      "code": "C20917",
+      "part": "AO3400A",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0973,
+      "source": "https://jlcpcb.com/partdetail/C20917"
+    },
+    {
+      "references": "R1,R2",
+      "code": "C23162",
+      "part": "0603WAF4701T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0028,
+      "source": "https://jlcpcb.com/partdetail/C23162"
+    },
+    {
+      "references": "R4",
+      "code": "C22859",
+      "part": "0603WAF100JT5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0032,
+      "source": "https://jlcpcb.com/partdetail/C22859"
+    },
+    {
+      "references": "R5,R6,R7,R8,R17",
+      "code": "C23140",
+      "part": "0603WAF330JT5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0024,
+      "source": "https://jlcpcb.com/partdetail/C23140"
+    },
+    {
+      "references": "R10,R11",
+      "code": "C23345",
+      "part": "0603WAF220JT5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0017,
+      "source": "https://jlcpcb.com/partdetail/C23345"
+    },
+    {
+      "references": "R12,R30,R31,R32,R34,R35,R46,R49,R50,R51",
+      "code": "C25804",
+      "part": "0603WAF1002T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0054,
+      "source": "https://jlcpcb.com/partdetail/C25804"
+    },
+    {
+      "references": "R13,R14",
+      "code": "C23179",
+      "part": "0603WAF4700T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0023,
+      "source": "https://jlcpcb.com/partdetail/C23179"
+    },
+    {
+      "references": "R15",
+      "code": "C22775",
+      "part": "0603WAF1000T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0026,
+      "source": "https://jlcpcb.com/partdetail/C22775"
+    },
+    {
+      "references": "R16",
+      "code": "C23186",
+      "part": "0603WAF5101T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0015,
+      "source": "https://jlcpcb.com/partdetail/C23186"
+    },
+    {
+      "references": "R23",
+      "code": "C25803",
+      "part": "0603WAF1003T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0031,
+      "source": "https://jlcpcb.com/partdetail/C25803"
+    },
+    {
+      "references": "R26",
+      "code": "C2960863",
+      "part": "FRC1210F22R0TS",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.013,
+      "source": "https://jlcpcb.com/partdetail/C2960863"
+    },
+    {
+      "references": "R47",
+      "code": "C21190",
+      "part": "0603WAF1001T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.003,
+      "source": "https://jlcpcb.com/partdetail/C21190"
+    },
+    {
+      "references": "R48",
+      "code": "C22975",
+      "part": "0603WAF2001T5E",
+      "library": "Basic",
+      "public_price_1pc_USD": 0.0024,
+      "source": "https://jlcpcb.com/partdetail/C22975"
+    },
+    {
+      "references": "TS1",
+      "code": "C224194",
+      "part": "FH34SRJ-6S-0.5SH(50)",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.0912,
+      "source": "https://jlcpcb.com/partdetail/C224194"
+    },
+    {
+      "references": "U2",
+      "code": "C107671",
+      "part": "PCM5102APWR",
+      "library": "Extended",
+      "public_price_1pc_USD": 1.4511,
+      "source": "https://jlcpcb.com/partdetail/C107671"
+    },
+    {
+      "references": "U3",
+      "code": "C365736",
+      "part": "ES8388",
+      "library": "Extended",
+      "public_price_1pc_USD": 1.1079,
+      "source": "https://jlcpcb.com/partdetail/C365736"
+    },
+    {
+      "references": "U8",
+      "code": "C155559",
+      "part": "LD39150DT33-R",
+      "library": "Extended",
+      "public_price_1pc_USD": 2.2435,
+      "source": "https://jlcpcb.com/partdetail/C155559"
+    },
+    {
+      "references": "U9",
+      "code": "C23654",
+      "part": "SN74LVC1G125DBVR",
+      "library": "Extended",
+      "public_price_1pc_USD": 0.0723,
+      "source": "https://jlcpcb.com/partdetail/C23654"
+    }
+  ],
+  "policy": "Basic first; price within verified electrical/mechanical equivalents. Extended retained where no verified suitable Basic part was found. Public 1pc prices are indicative; stock, quantity breaks, attrition and loading fees are determined by the order quote."
+}

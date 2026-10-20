@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20",
+  "official_header_pin_checks": 40,
+  "explicit_pin_net_assertions": 132,
+  "mismatches": 0,
+  "GPIO_count": 27,
+  "spare_expansion_GPIOs": [
+    2,
+    3,
+    24,
+    25,
+    50,
+    52
+  ],
+  "ES8388_P4_DOUT": 23,
+  "ES8388_P4_DIN": 26,
+  "touch_ribbon_identity": "USER CONFIRMED: 1 VDD, 2 SDA, 3 SCL, 4 INT, 5 RST, 6 GND; contact side/physical fit not independently verified"
+}

@@ -1,0 +1,163 @@
+(footprint "SW_SKRPACE010_C139797"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ALPS Alpine SKRPACE010 tactile switch, LCSC C139797, 4.2x3.2mm body, SMD J-lead, exact recommended land pattern; for 2-pin SW_Push symbol")
+	(tags "tactile switch ALPS SKRPACE010 C139797 SMD 4.2x3.2")
+	(property "Reference" "REF**"
+		(at 0 -2.825 0)
+		(layer "F.SilkS")
+		(uuid "7a752d24-9bc7-4a7a-82cb-075ff7a8384b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SKRPACE010"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9609e6ac-7d84-4112-8002-d2fb3549b414")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09c4f299-e102-4212-9129-4a54f040251c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b202783-c99b-42ea-aa8f-da3d9cba3f61")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" "C139797"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5ece1b9-a268-4fa1-b65b-8705e945d1a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "P4-WVM-ATSC6-V1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3 -2)
+		(end 3 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f9b9aef9-87f2-48b2-938f-4838be5b59bf")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end -1.55 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b55ee32-bd20-4fcb-9c30-a316ecc7ea26")
+	)
+	(fp_rect
+		(start -2.15 -1.65)
+		(end 2.15 1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "07e967e7-d3e2-4777-aa7b-f553bb73040b")
+	)
+	(fp_rect
+		(start -2.1 -1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6d262e45-9895-4054-a3a3-b3c1307fd9ec")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "03f19e53-8fa0-4950-a64e-70bcc2fd914a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "541d051d-4a9f-4927-b13a-51d69030f3b9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "e7466d98-fe54-48b2-a89f-87a5dedbb63a")
+	)
+	(pad "1" smd roundrect
+		(at -2.075 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "35179337-ef55-4538-94b9-ce308db013af")
+	)
+	(pad "2" smd roundrect
+		(at 2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "2be1234d-7c64-45e3-8780-1d3d3ba19875")
+	)
+	(pad "2" smd roundrect
+		(at 2.075 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "ec889653-74d9-45af-8c80-f86e6c051a7b")
+	)
+	(embedded_fonts no)
+)

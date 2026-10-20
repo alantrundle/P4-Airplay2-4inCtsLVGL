@@ -1,0 +1,17 @@
+{
+  "datasheet_pin_checks": 114,
+  "schematic_to_PCB_pin_checks": 333,
+  "mismatches": 0,
+  "jack_R2_both_ground": true,
+  "only_FET": "Q3 AO3400A: 1 gate, 2 source/GND, 3 drain/LED_K",
+  "mounting_holes_original": true,
+  "DNP": [
+    "C1",
+    "C2",
+    "U1"
+  ],
+  "backlight_nominal_mA": 86.36,
+  "backlight_max_mA_at_5p25V_2p9V_LED_1pct_R": 107.9,
+  "backlight_resistor_max_W_at_5p25V": 0.254,
+  "touch_supplier_pinout_status": "USER CONFIRMED: 1 VDD, 2 SDA, 3 SCL, 4 INT, 5 RST, 6 GND; contact side/physical fit not independently verified"
+}

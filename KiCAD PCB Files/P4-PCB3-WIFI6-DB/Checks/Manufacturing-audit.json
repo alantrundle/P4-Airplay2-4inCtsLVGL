@@ -1,0 +1,21 @@
+{
+  "copper_layers": 2,
+  "power_zones": [
+    {
+      "net": "/LDO_3V3",
+      "layers": [
+        "Top Layer"
+      ]
+    },
+    {
+      "net": "/GND",
+      "layers": [
+        "Bottom Layer"
+      ]
+    }
+  ],
+  "mounting_holes_original": true,
+  "component_pad_intersections_in_ribbon_corridors": [],
+  "minimum_track_width_mm": 0.12,
+  "minimum_via_drill_mm": 0.2
+}

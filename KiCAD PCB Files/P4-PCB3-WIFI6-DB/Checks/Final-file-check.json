@@ -1,0 +1,20 @@
+{
+  "PCB_SHA256": "22c5d58b8e81ab1911476aa1e12b89e2ca7be1f655e05cea5bb39743edef49e7",
+  "schematic_SHA256": "91239766420fb2be68fbb7f8af54aa4f01757054cb89e820a2612de88340c3c7",
+  "DRC_violations": 0,
+  "unconnected_items": 0,
+  "schematic_mismatches": 0,
+  "ERC_reported_violations": 0,
+  "BOM_CPL_refs": 83,
+  "assembly_side": "Bottom only",
+  "jack_refs": [
+    "J2",
+    "J3"
+  ],
+  "manual_top_refs": [
+    "D1",
+    "SW1"
+  ],
+  "duplicate_placements": 0,
+  "touch_pin_order": "user confirmed, matches TS1"
+}

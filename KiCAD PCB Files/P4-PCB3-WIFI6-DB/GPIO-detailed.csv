@@ -1,0 +1,28 @@
+P4 GPIO,U1 physical pin,Function,Direction at P4,Destination / notes
+2,15,Expansion CS,Out / configurable,"J10 pin 7; free chip-select, not SD_CS"
+3,14,Expansion GPIO,Configurable,J11 pin 4
+4,12,Touch RESET,Out,TS1 pin 5; R50 pull-up
+5,11,Touch INT,In,TS1 pin 4
+7,17,I2C SDA,Bidirectional OD,"TS1 pin 2, U3 pin 27, J9 pin 4; shared with module I2C"
+8,16,I2C SCL,Out OD,"TS1 pin 3, U3 pin 28, J9 pin 5; shared with module I2C"
+20,35,ES8388 MCLK,Out,R17 33R -> U3 pin 1
+21,34,ES8388 BCLK,Out,R6 33R -> U3 pin 5
+22,32,ES8388 LRCK / WS,Out,R8 33R -> U3 pin 7
+23,31,ES8388 playback data,Out,R7 33R -> U3 pin 6 DSDIN (P4 DOUT)
+24,19,Expansion GPIO,Configurable,J11 pin 5; alternative USB1 function must remain disabled
+25,20,Expansion GPIO,Configurable,J11 pin 6; alternative USB1 function must remain disabled
+26,29,ES8388 microphone data,In,U3 pin 8 ASDOUT -> R5 33R -> P4 DIN; alternative USB1 function disabled
+27,27,PCM5102 BCLK,Out,U2 pin 13; alternative USB1 function disabled
+28,7,PCM5102 playback data,Out,U2 pin 14 DIN
+29,6,PCM5102 LRCK / WS,Out,U2 pin 15
+30,5,Shared SPI MISO,In,J6 pin 7 and U9 pin 4; J10 pin 6. TFT SDO reaches U9 pin 2
+31,4,Shared SPI SCLK,Out,"DS1 pin 11, J6 pin 5, J10 pin 4"
+32,26,Shared SPI MOSI,Out,"DS1 pin 13, J6 pin 3, J10 pin 5"
+33,25,TFT DC / A0,Out,DS1 pin 10
+46,24,TFT CS active low,Out,DS1 pin 9 and U9 pin 1 /OE; R49 pull-up
+47,22,TFT RESET,Out,DS1 pin 15; R51 pull-up
+48,21,TFT backlight PWM,Out,R15 100R -> Q3 gate; R23 gate pull-down
+49,10,External SD CS active low,Out,J6 pin 2 DAT3/CS
+50,9,Expansion GPIO,Configurable,J11 pin 8
+51,2,External SD detect,In,"SW1 pin 1 -> switched card-detect circuit; enable SW1, active low"
+52,1,Expansion GPIO,Configurable,J11 pin 7
